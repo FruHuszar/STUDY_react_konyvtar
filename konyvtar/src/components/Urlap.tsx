@@ -1,4 +1,4 @@
-import { useState, ChangeEvent, FormEvent } from "react";
+import { useState, type ChangeEvent, type FormEvent } from "react";
 import { useKonyvContext } from "../contexts/KonyvContext";
 
 function Urlap() {

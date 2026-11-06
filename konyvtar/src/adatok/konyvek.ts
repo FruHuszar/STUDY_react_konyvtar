@@ -6,7 +6,7 @@ export interface KonyvTipus {
   darabszam: number;
 }
 
-type UjKonyvTipus = Omit<KonyvTipus, "id">;
+export type UjKonyvTipus = Omit<KonyvTipus, "id">;
 
 export const konyvlista: KonyvTipus[] = [
   {
